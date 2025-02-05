@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Random Meme Generator</h2>
+
+    <label for="category">Choose a category:</label>
+    <select id="category">
+        <option value="memes">General Memes</option>
+        <option value="ProgrammerHumor">Tech Memes</option>
+        <option value="dankmemes">Funny Memes</option>
+        <option value="historymemes">History Memes</option>
+        <option value="wholesomememes">Wholesome Memes</option>
+    </select>
+
+    <div id="meme-container">
+        <img id="meme-img" src="" alt="Loading...">
+    </div>
+    
+    <button id="generate-meme">Generate Meme</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
